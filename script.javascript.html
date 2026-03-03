@@ -1,0 +1,17 @@
+// Get the textarea element from the HTML
+const textArea = document.getElementById("userInput");
+
+function makeUpper() {
+    // Change the text to ALL CAPS
+    textArea.value = textArea.value.toUpperCase();
+}
+
+function makeLower() {
+    // Change the text to all lowercase
+    textArea.value = textArea.value.toLowerCase();
+}
+
+function clearText() {
+    // Empty the text box
+    textArea.value = "";
+}
